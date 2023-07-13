@@ -56,7 +56,7 @@ header{
 }
 
 main{
-    background-image: url('../Imagenes/hawaii.jpg');
+    background-image: url('hawaii.jpg');
     background-blend-mode:soft-light;
     background-color: rgb(50, 50, 50);
     background-position: center;
