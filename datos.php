@@ -18,6 +18,7 @@ $resultado = mysqli_query($conexion, $consulta);
         <th scope="col">Correo</th>
         <th scope="col">Cantidad</th>
         <th scope="col">Categoria</th>
+        <th scope="col"></th>
     </tr>
 
     <?php
@@ -30,6 +31,7 @@ $resultado = mysqli_query($conexion, $consulta);
             <td><?php echo $i['correo'] ?></td>
             <td><?php echo $i['cantidad'] ?></td>
             <td><?php echo $i['categoria'] ?></td>
+            <td><a class="link" href="eliminar.php?id=<?php echo $i['id'];?>">Eliminar</a></td>
         </tr>
 
 
