@@ -16,7 +16,6 @@ btnResumen.addEventListener("click", () => {
         if(cantidad.value > 0 && nombre.value != "" && apellido.value != "" && correo.value != ""){
             let total = cantidad.value * ((ticket * 20)/100);
             resultado.innerHTML = total;
-            cantidad.value = "";
             msjError.style.display = "none"
         }else{
             msjError.style.display = "block"
@@ -28,7 +27,6 @@ btnResumen.addEventListener("click", () => {
         if(cantidad.value > 0 && nombre.value != "" && apellido.value != "" && correo.value != ""){
             let total = cantidad.value * ((ticket * 50)/100);
             resultado.innerHTML = total;
-            cantidad.value = "";
             msjError.style.display = "none"
         }else{
             msjError.style.display = "block"
@@ -40,7 +38,6 @@ btnResumen.addEventListener("click", () => {
         if(cantidad.value > 0 && nombre.value != "" && apellido.value != "" && correo.value != ""){
             let total = cantidad.value * ((ticket * 85)/100);
             resultado.innerHTML = total;
-            cantidad.value = "";
             msjError.style.display = "none"
         }else{
             msjError.style.display = "block"

@@ -53,7 +53,7 @@
 
         <p id="venta">VENTA</p>
         <h2 id="titulo-valor">VALOR DE TICKET $200</h2>
-        <form action="registro.php" method="post">
+        <form action="registro.php" method="POST">
             <input type="text" name="nombre" class="campos-nombre" id="nombre" placeholder="Nombre" required>
             <input type="text" name="apellido" class="campos-nombre" id="apellido" placeholder="Apellido" required>
             <input type="email" name="correo" class="campo-correo" id="correo" placeholder="Correo" required>

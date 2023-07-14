@@ -12,12 +12,12 @@ include("conexion.php");
         $cantidad = $_POST['cantidad'];
         $categoria = $_POST['categoria'];
 
-        $consulta = "INSERT INTO clientes (nombre , apellido, correo, cantidad, categoria) 
-                    VALUES ('$nombre', '$apellido', '$correo','$cantidad','$categoria')";
+        $consulta = "INSERT INTO clientes (nombre, apellido, correo, cantidad, categoria) 
+                     VALUES ('$nombre', '$apellido', '$correo', '$cantidad', '$categoria')";
 
         $resultado = mysqli_query($conexion, $consulta);
         
-    header("refresh: 3, tickets.php");       
+    header("refresh: 2, tickets.php");       
     }
 }
 ?>
